@@ -1,0 +1,76 @@
+/* .SignupWrap{ width:96%; max-width: 500px; margin: 30px auto; }
+.SignupWrap > form{  width:100%; float: left; background-color: rgba(255, 255, 255, 0.6); padding: 20px; box-sizing: border-box; border-radius:6px;}
+.title_1{ width:100%; float: left;font-weight: normal; text-transform: uppercase; font-size: 24px; line-height: 30px; color:#222; padding: 0px 10px; box-sizing: border-box;}
+.formWrapList{ width:100%; float: left; margin: 20px 0px }
+.formWrapList > li{ width:100%; float: left; margin: 5px 0px; list-style: none; padding:0px 10px; box-sizing: border-box; }
+.formWrapList .inputTxt{background:rgba(0,0,0,0.5); border:0px; color:#fff;font-size:14px;letter-spacing:0.5px;line-height:30px;padding:5px 10px;text-align:left;width:100%;box-sizing:border-box;text-align:left;height:40px;}
+.inputTxt::placeholder { color: rgba(255,255,255,0.1); }
+.formWrapList textarea.inputTxt{height:100px;resize:none;}
+.btn-submit{position: relative;
+    background: #0095e2;
+    float: left;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 0px;}
+.btn-reset{position: relative;
+    float: left;
+    padding: 0px 20px;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 2px solid rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    background-color: transparent;
+    height: 36px;
+    line-height: 32px;
+    margin-left: 10px;
+}    
+.btn-submit:disabled{ background-color: #666; cursor: not-allowed;}
+.labelTxt{ width:100%; float: left; font-size: 14px; line-height: 20px;}    
+
+
+.loginBoxWrap{ width:90%; max-width: 400px; margin: 100px auto ;}
+.logoWrap{ width:100%; float: left; text-align: center; border-bottom: 1px solid #eee; padding: 10px; box-sizing: border-box;}
+.logoImg{ display: inline-block; height:60px;}
+/* .loginBox{ width:100%; float: left; padding: 30px; box-sizing: border-box; box-shadow: 0px 0px 6px rgba(0,0,0,0.2); border-radius: 3px;} */
+/*.loginBox h2{ width:100%; float: left; padding: 4px 0px; box-sizing: border-box; font-size: 22px;}
+
+.signIn {
+    text-align: center;
+    margin-top: 13px;
+}
+
+.formStyle {
+    color: white;
+    margin-top: 270px;
+} 
+
+.bgStyle {
+    background-size: 100%;
+    position: fixed;
+  
+    height: 100%;
+    background-repeat: no-repeat;
+}
+*/
+
+
+/*******************************/
+#mainWrap{ width:100%; float: left;     min-height: calc(100vh - 138px);}
+.bgStyle{
+    background-image: url(../../../assets/Images/Login.png);
+    background-size: 100%;
+    width: 100%;
+    min-height: calc(100vh - 138px);
+    background-repeat: no-repeat;
+}
+.formWrap {margin: 20% 0px;}
+.formWrap .control-label{ color:#fff;}
+.loginButton { color:#333; background-color: #f1f1f1; width: 100%; float: left; margin-top: 15px; border:0px; padding: 7px 12px;}
+.loginButton:hover{ background-color: #999; color: #fff;}
+.signInTxt{ width: 100%; float: left; padding: 20px 0px; color:#777;text-align: center}
+.signInTxt a:hover{ color:#ff1f2c; text-decoration: none;}
